@@ -143,7 +143,7 @@ public class MainView extends JFrame implements ActionListener {
     public void quitAction() {
         if (listView != null) {
             listView.dispose();
-            itemListView.dispose();
+            // itemListView.dispose();
         }
         dispose();
         guestList.printLog();
